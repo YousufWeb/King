@@ -6379,7 +6379,7 @@ if Controller(msg_chat_id,UserId) == 'المطور الاساسي' then
 return LuaTele.sendText(msg_chat_id,msg_id,"\n*◍ عذرآ لا تستطيع استخدام الامر على ⦗ "..Controller(msg_chat_id,UserId).." ⦘ *","md",true)  
 end
 if UserId == "5151007856" then
-return LuaTele.sendText(msg_chat_id,msg_id,"\n*◍ عذرآ لا تستطيع استخدام الامر على المطور هيرو  *","md",true)  
+return LuaTele.sendText(msg_chat_id,msg_id,"\n*◍ عذرآ لا تستطيع استخدام الامر على المطور الكنج  *","md",true)  
 end
 if Redis:sismember(WOLF.."BanAll:Groups",UserId) then
 return LuaTele.sendText(msg_chat_id,msg_id,Reply_Status(UserId,"◍ تم حظره عام من المجموعات مسبقا ").Reply,"md",true)  
@@ -6425,7 +6425,7 @@ if not msg.ControllerBot then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n*◍هاذا الامر يخص⦗ '..Controller_Num(1)..' ⦘* ',"md",true)  
 end
 if UserId == "5151007856" then
-return LuaTele.sendText(msg_chat_id,msg_id,"\n*◍ عذرآ لا تستطيع استخدام الامر على المطور هيرو  *","md",true)  
+return LuaTele.sendText(msg_chat_id,msg_id,"\n*◍ عذرآ لا تستطيع استخدام الامر على المطور الكنج  *","md",true)  
 end
 local ban = LuaTele.getUser(UserId)
 local bain = LuaTele.getUser(msg.sender.user_id)
@@ -6892,8 +6892,8 @@ end
 end
 end
 end
-if text == 'المبرمج هيرو ' or text == 'هيرو ' or text == 'المبرمج' then  
-local UserId_Info = LuaTele.searchPublicChat("DEV_FRAWN")
+if text == 'المبرمج الكنج ' or text == 'الكنج ' or text == 'المبرمج' then  
+local UserId_Info = LuaTele.searchPublicChat("TR_E2S_ON_MY_MOoN")
 if UserId_Info.id then
 local  ban = LuaTele.getUser(UserId_Info.id)
 local  bain = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -6913,7 +6913,7 @@ local TestText = "\n ◍*𝐃𝐄𝐕 𝐍𝐀𝐌𝐄* :  [".. ban.first_name..
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = Creat, url = "https://t.me/DEV_FRAWN"}
+{text = Creat, url = "https://t.me/TR_E2S_ON_MY_MOoN"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6923,7 +6923,7 @@ local TestText = "\n ◍*𝐃𝐄𝐕 𝐍𝐀𝐌𝐄* :  [".. ban.first_name..
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = Creat, url = "https://t.me/DEV_FRAWN"}
+{text = Creat, url = "https://t.me/TR_E2S_ON_MY_MOoN"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6980,8 +6980,8 @@ local msg_id = msg.id/2097152/0.5
 end
 end
 
-if text == 'مالك السورسات' or text == 'هيرو' or text == 'مبرمج السورس' then  
-local UserId_Info = LuaTele.searchPublicChat("DEV_FRAWN")
+if text == 'مالك السورسات' or text == 'الكنج' or text == 'مبرمج السورس' then  
+local UserId_Info = LuaTele.searchPublicChat("TR_E2S_ON_MY_MOoN")
 if UserId_Info.id then
 local  ban = LuaTele.getUser(UserId_Info.id)
 local  bain = LuaTele.getUserFullInfo(5555555555)
@@ -6997,7 +6997,7 @@ local TestText = "  ❲ ‹ ⚶𝑆𝑂𝑈𝑅𝐶𝐸 𝐾𝐼𝑁𝐺⚶ ›�
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = czczh, url = "https://t.me/DEV_FRAWN"}
+{text = czczh, url = "https://t.me/TR_E2S_ON_MY_MOoN"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -7007,7 +7007,7 @@ local TestText = "  ❲ ‹ ⚶𝑆𝑂𝑈𝑅𝐶𝐸 𝐾𝐼𝑁𝐺⚶ ›�
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = czczh, url = "https://t.me/DEV_FRAWN"}
+{text = czczh, url = "https://t.me/TR_E2S_ON_MY_MOoN"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -7199,7 +7199,7 @@ data = {
 }
 LuaTele.sendText(Sudo_Id,0,'*\n◍ مرحباً عزيزي المطور \nشخص ما يحتاج الي مساعده\n ❲ ‹ ⚶𝑆𝑂𝑈𝑅𝐶𝐸 𝐾𝐼𝑁𝐺⚶ ›❳\n◍ اسمه :- '..klajq..' \n◍ ايديه :-  : '..msg.sender.user_id..'\n◍ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
 end
-if text == 'المبرمج هيرو ' or text == 'هيرو ' or text == 'المبرمج' then  
+if text == 'المبرمج الكنج ' or text == 'الكنج ' or text == 'المبرمج' then  
 local Get_Chat = LuaTele.getChat(msg_chat_id)
 local Info_Chats = LuaTele.getSupergroupFullInfo(msg_chat_id)
 local bains = LuaTele.getUser(msg.sender.user_id)
@@ -7225,7 +7225,7 @@ data = {
 },
 }
 }
-LuaTele.sendText(5194316700,0,'*\n◍ مرحباً عزيزي المبرمج هيرو  \nشخص ما يحتاج الي مساعده\nꔹ━━━━━ꔹ𝐅𝐈𝐑𝐄ꔹ━━━━━ꔹ\n◍ اسمه :- '..klajq..' \n◍ ايديه :-  : '..msg.sender.user_id..'\n◍ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
+LuaTele.sendText(5194316700,0,'*\n◍ مرحباً عزيزي المبرمج الكنج  \nشخص ما يحتاج الي مساعده\nꔹ━━━━━ꔹ𝐅𝐈𝐑𝐄ꔹ━━━━━ꔹ\n◍ اسمه :- '..klajq..' \n◍ ايديه :-  : '..msg.sender.user_id..'\n◍ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
 end
 if text == 'مالك السورسات' or text == 'ف' then  
 local Get_Chat = LuaTele.getChat(msg_chat_id)
@@ -7253,7 +7253,7 @@ data = {
 },
 }
 }
-LuaTele.sendText(5555555555,0,'*\n◍ مرحباً عزيزي المبرمج هيرو  \nشخص ما يحتاج الي مساعده\nꔹ━━━━━ꔹ𝐅𝐈𝐑𝐄ꔹ━━━━━ꔹ\n◍ اسمه :- '..klajq..' \n◍ ايديه :-  : '..msg.sender.user_id..'\n◍ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
+LuaTele.sendText(5555555555,0,'*\n◍ مرحباً عزيزي المبرمج الكنج  \nشخص ما يحتاج الي مساعده\nꔹ━━━━━ꔹ𝐅𝐈𝐑𝐄ꔹ━━━━━ꔹ\n◍ اسمه :- '..klajq..' \n◍ ايديه :-  : '..msg.sender.user_id..'\n◍ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
 end
 if text == 'المبرمج كينج' or text == 'كينج' then  
 local Get_Chat = LuaTele.getChat(msg_chat_id)
@@ -7436,7 +7436,7 @@ if tonumber(Message_Reply.sender.user_id) == tonumber(msg.sender.user_id) then
 return LuaTele.sendText(msg_chat_id,msg_id,"*⏏️| انت عبيط يسطا دا انت*","md",true)  
 end
 if tonumber(Message_Reply.sender.user_id) == tonumber(5194316700) then
-return LuaTele.sendText(msg_chat_id,msg_id,"*⚠️| حبيبي دا المبرمج هيرو  مش بيموت*","md",true)  
+return LuaTele.sendText(msg_chat_id,msg_id,"*⚠️| حبيبي دا المبرمج الكنج  مش بيموت*","md",true)  
 end
 if tonumber(Message_Reply.sender.user_id) == tonumber(WOLF) then
 return LuaTele.sendText(msg_chat_id,msg_id,"*👾| هذا بوت يهبل*","md",true)  
@@ -7463,7 +7463,7 @@ if tonumber(Message_Reply.sender.user_id) == tonumber(msg.sender.user_id) then
 return LuaTele.sendText(msg_chat_id,msg_id,"*⏏️| انت عبيط يسطا دا انت*","md",true)  
 end
 if tonumber(Message_Reply.sender.user_id) == tonumber(5194316700) then
-return LuaTele.sendText(msg_chat_id,msg_id,"*⚠️| حبيبي دا المبرمج هيرو  مش بيتف عليه*","md",true)  
+return LuaTele.sendText(msg_chat_id,msg_id,"*⚠️| حبيبي دا المبرمج الكنج  مش بيتف عليه*","md",true)  
 end
 if tonumber(Message_Reply.sender.user_id) == tonumber(WOLF) then
 return LuaTele.sendText(msg_chat_id,msg_id,"*👾| هذا بوت يهبل*","md",true)  
@@ -12053,7 +12053,7 @@ end
 if text == "نسبه الحب" or text == "نسبه حب" and msg.reply_to_message_id == 0  then
 if Redis:get(WOLF.."Status:Games"..msg.chat_id) then
 Redis:set(WOLF..":lov_Bots"..msg.sender.user_id,"sendlove") 
-Text = 'ارسل اسمك واسم الشخص الثاني،  \n مثال هيرو  والمبرمج احمد '
+Text = 'ارسل اسمك واسم الشخص الثاني،  \n مثال الكنج  والمبرمج احمد '
 return LuaTele.sendText(msg_chat_id,msg_id,Text,"md",true) 
 end
 end
@@ -12083,7 +12083,7 @@ end
 if text == "نسبه رجوله" or text == "نسبه الرجوله" and msg.reply_to_message_id == 0  then
 if Redis:get(WOLF.."Status:Games"..msg.chat_id) then
 Redis:set(WOLF..":hauai"..msg.sender.user_id,"senduau") 
-Text = 'ارسل اسم الشخص الذي تريد قياس نسبه رجولته \n مثال هيرو '
+Text = 'ارسل اسم الشخص الذي تريد قياس نسبه رجولته \n مثال الكنج '
 return LuaTele.sendText(msg_chat_id,msg_id,Text,"md",true) 
 end
 end
@@ -12251,8 +12251,8 @@ local texting = {"اخر افلام شاهدتها",
 "روايتك المفضله ?", 
 "اخر اكله اكلتها", 
 "اخر كتاب قرآته", 
-"ليه هيرو  جدع؟ ", 
- "ليه هيرو  جدع؟ ", 
+"ليه الكنج  جدع؟ ", 
+ "ليه الكنج  جدع؟ ", 
 "افضل يوم ف حياتك", 
 "ليه مضيفتش كل جهاتك", 
 "حكمتك ف الحياه", 
@@ -12481,7 +12481,7 @@ local texting = {"اخر افلام شاهدتها",
   "تتوقع إنك بتتزوج اللي تحبه؟ ",
   "ما هو أمنيتك؟ ",
   "وين تشوف نفسك بعد خمس سنوات؟ ",
-  "هل انت حرامي تويت بتعت هيرو ؟ ",
+  "هل انت حرامي تويت بتعت الكنج ؟ ",
   "لو خيروك تقدم الزمن ولا ترجعه ورا؟ ",
   "لعبة قضيت وقتك فيه بالحجر المنزلي؟ ",
   "تحب تطق الميانة ولا ثقيل؟ ",
@@ -12489,7 +12489,7 @@ local texting = {"اخر افلام شاهدتها",
   "اول ماتصحى من النوم مين تكلمه؟ ",
   "عندك الشخص اللي يكتب لك كلام كثير وانت نايم؟ ",
   "قد قابلت شخص تحبه؟ وولد ولا بنت؟ ",
-   "هل انت تحب هيرو ؟ ",
+   "هل انت تحب الكنج ؟ ",
 "اذا قفطت احد تحب تفضحه ولا تستره؟ ",
   "كلمة للشخص اللي يسب ويسطر؟ ",
   "آية من القران تؤمن فيه؟ ",
@@ -12501,7 +12501,7 @@ local texting = {"اخر افلام شاهدتها",
   "اذكر موقف ماتنساه بعمرك؟ ",
   "وش حاب تقول للاشخاص اللي بيدخل حياتك؟ ",
   "ألطف شخص مر عليك بحياتك؟ ",
-   "هل هيرو  لطيف؟ ",
+   "هل الكنج  لطيف؟ ",
 "انت من الناس المؤدبة ولا نص نص؟ ",
   "كيف الصيد معاك هالأيام ؟ وسنارة ولاشبك؟ ",
   "لو الشخص اللي تحبه قال بدخل حساباتك بتعطيه ولا تكرشه؟ ",
@@ -12530,7 +12530,7 @@ local texting = {"اخر افلام شاهدتها",
   "انسان م تحب تتعامل معاه ابداً ؟ ",
   "شيء بسيط تحتفظ فيه؟ ",
   "فُرصه تتمنى لو أُتيحت لك ؟ ",
-   "لي هيرو  ناك اليكس؟ ",
+   "لي الكنج  ناك اليكس؟ ",
   "شيء مستحيل ترفضه ؟. ",
   "لو زعلت بقوة وش بيرضيك ؟ ",
   "تنام بـ اي مكان ، ولا بس غرفتك ؟ ",
@@ -14727,7 +14727,7 @@ local texting = {"اخر افلام شاهدتها",
 "روايتك المفضله ?", 
 "اخر اكله اكلتها", 
 "اخر كتاب قرآته", 
-"ليه هيرو  جدع؟ ", 
+"ليه الكنج  جدع؟ ", 
 "افضل يوم ف حياتك", 
 "ليه مضيفتش كل جهاتك", 
 "حكمتك ف الحياه", 
@@ -14956,7 +14956,7 @@ local texting = {"اخر افلام شاهدتها",
   "تتوقع إنك بتتزوج اللي تحبه؟ ",
   "ما هو أمنيتك؟ ",
   "وين تشوف نفسك بعد خمس سنوات؟ ",
-  "هل انت حرامي تويت بتعت هيرو ؟ ",
+  "هل انت حرامي تويت بتعت الكنج ؟ ",
   "لو خيروك تقدم الزمن ولا ترجعه ورا؟ ",
   "لعبة قضيت وقتك فيه بالحجر المنزلي؟ ",
   "تحب تطق الميانة ولا ثقيل؟ ",
@@ -14964,7 +14964,7 @@ local texting = {"اخر افلام شاهدتها",
   "اول ماتصحى من النوم مين تكلمه؟ ",
   "عندك الشخص اللي يكتب لك كلام كثير وانت نايم؟ ",
   "قد قابلت شخص تحبه؟ وولد ولا بنت؟ ",
-   "هل انت تحب هيرو ؟ ",
+   "هل انت تحب الكنج ؟ ",
 "اذا قفطت احد تحب تفضحه ولا تستره؟ ",
   "كلمة للشخص اللي يسب ويسطر؟ ",
   "آية من القران تؤمن فيه؟ ",
