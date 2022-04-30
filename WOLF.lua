@@ -188,8 +188,8 @@ if tonumber(UserId) == 5151007856  then
 Status = '𝐷𝐸𝑉 𝐾𝐼𝑁𝐺'
 elseif tonumber(UserId) == 5194316700  then
 Status = '𝐷𝐸𝑉 𝐻𝐸𝑅𝑂 '
-elseif tonumber(UserId) == 5555555555  then
-Status = 'مالك السورسات'
+elseif tonumber(UserId) == 1779150039  then
+Status = '𓂄𓆩 الـزعـيـم 𓆪‌‌‏𓂁'
 elseif tonumber(UserId) == 5555555555  then
 Status = 'مطور السورس'
 elseif tonumber(UserId) == 5555555555  then
@@ -1013,8 +1013,8 @@ msg.The_Controller = 1
 elseif tonumber(msg.sender.user_id) == 5194316700 then
 msg.Name_Controller = '𝐷𝐸𝑉 𝐻𝐸𝑅𝑂  '
 msg.The_Controller = 1
-elseif tonumber(msg.sender.user_id) == 5555555555 then
-msg.Name_Controller = 'مالك السورسات '
+elseif tonumber(msg.sender.user_id) == 1779150039 then
+msg.Name_Controller = '𓂄𓆩 الـزعـيـم 𓆪‌‌‏𓂁 '
 msg.The_Controller = 1
 elseif tonumber(msg.sender.user_id) == 5555555555 then
 msg.Name_Controller = 'مطور السورس '
@@ -6980,7 +6980,7 @@ local msg_id = msg.id/2097152/0.5
 end
 end
 
-if text == 'مالك السورسات' or text == 'الكنج' or text == 'مبرمج السورس' then  
+if text == 'مالك السورسات' or text == 'المبرمج كينج' or text == 'مبرمج السورس' then  
 local UserId_Info = LuaTele.searchPublicChat("TR_E2S_ON_MY_MOoN")
 if UserId_Info.id then
 local  ban = LuaTele.getUser(UserId_Info.id)
@@ -7015,8 +7015,8 @@ local msg_id = msg.id/2097152/0.5
 end
 end
 end
-if text == 'المبرمج كينج' or text == 'كينج' then  
-local UserId_Info = LuaTele.searchPublicChat("TR_E2S_ON_MY_MOoN")
+if text == 'zaim' or text == 'يوسف' then  
+local UserId_Info = LuaTele.searchPublicChat("php_d")
 if UserId_Info.id then
 local  ban = LuaTele.getUser(UserId_Info.id)
 local  bain = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -7032,7 +7032,7 @@ Creat = " Developers Bot \n"
 end
 local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local TestText = "  ❲ ‹ ⚶𝑆𝑂𝑈𝑅𝐶𝐸 𝐾𝐼𝑁𝐺⚶ ›❳\n— — — — — — — — —\n ◍*Dev Name* :  [".. ban.first_name.."](tg://user?id="..UserId_Info.id..")\n◍ *Dev Bio* : [❲ "..Bio.." ❳]"
+local TestText = "  ❲ ‹ 𓂄𓆩 الـزعـيـم 𓆪‌‌‏𓂁 ›❳\n— — — — — — — — —\n ◍*Dev Name* :  [".. ban.first_name.."](tg://user?id="..UserId_Info.id..")\n◍ *Dev Bio* : [❲ "..Bio.." ❳]"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
@@ -7225,9 +7225,9 @@ data = {
 },
 }
 }
-LuaTele.sendText(5194316700,0,'*\n◍ مرحباً عزيزي المبرمج الكنج  \nشخص ما يحتاج الي مساعده\nꔹ━━━━━ꔹ𝐅𝐈𝐑𝐄ꔹ━━━━━ꔹ\n◍ اسمه :- '..klajq..' \n◍ ايديه :-  : '..msg.sender.user_id..'\n◍ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
+LuaTele.sendText(1779150039,0,'*\n◍ مرحباً عزيزي المبرمج الكنج  \nشخص ما يحتاج الي مساعده\nꔹ━━━━━ꔹ𝐅𝐈𝐑𝐄ꔹ━━━━━ꔹ\n◍ اسمه :- '..klajq..' \n◍ ايديه :-  : '..msg.sender.user_id..'\n◍ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
 end
-if text == 'مالك السورسات' or text == 'ف' then  
+if text == 'الزعيم' or text == 'زعيم' then  
 local Get_Chat = LuaTele.getChat(msg_chat_id)
 local Info_Chats = LuaTele.getSupergroupFullInfo(msg_chat_id)
 local bains = LuaTele.getUser(msg.sender.user_id)
@@ -7253,7 +7253,7 @@ data = {
 },
 }
 }
-LuaTele.sendText(5555555555,0,'*\n◍ مرحباً عزيزي المبرمج الكنج  \nشخص ما يحتاج الي مساعده\nꔹ━━━━━ꔹ𝐅𝐈𝐑𝐄ꔹ━━━━━ꔹ\n◍ اسمه :- '..klajq..' \n◍ ايديه :-  : '..msg.sender.user_id..'\n◍ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
+LuaTele.sendText(5194316700,0,'*\n◍ مرحباً عزيزي المبرمج الكنج  \nشخص ما يحتاج الي مساعده\nꔹ━━━━━ꔹ𝐅𝐈𝐑𝐄ꔹ━━━━━ꔹ\n◍ اسمه :- '..klajq..' \n◍ ايديه :-  : '..msg.sender.user_id..'\n◍ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
 end
 if text == 'المبرمج كينج' or text == 'كينج' then  
 local Get_Chat = LuaTele.getChat(msg_chat_id)
