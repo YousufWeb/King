@@ -7054,6 +7054,47 @@ local msg_id = msg.id/2097152/0.5
 end
 end
 end
+//
+if text == 'الكنج' or text == 'كنج' or text == 'المبرمج الكنج' then  
+local UserId_Info = LuaTele.searchPublicChat("TR_E2S_ON_MY_MOoN")
+if UserId_Info.id then
+local  ban = LuaTele.getUser(UserId_Info.id)
+local  bain = LuaTele.getUserFullInfo(UserId_Info.id)
+if  bain.bio then
+Bio =  bain.bio
+else
+Bio = 'لا يوجد'
+end
+if ban.first_name then
+Creat = " "..ban.first_name.." "
+else
+Creat = " Developers Bot \n"
+end
+local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
+if photo.total_count > 0 then
+local TestText = "  ❲ ‹ 𓆩 الـزعـيـم 𓆪‌‌‏ ›❳\n— — — — — — — — —\n ◍*Dev Name* :  [".. ban.first_name.."](tg://user?id="..UserId_Info.id..")\n◍ *Dev Bio* : [❲ "..Bio.." ❳]"
+keyboardd = {} 
+keyboardd.inline_keyboard = {
+{
+{text = Creat, url = "https://t.me/"..ban.username..""},
+},
+}
+local msg_id = msg.id/2097152/0.5 
+ https.request("https://api.telegram.org/bot"..Token..'/sendPhoto?chat_id='..msg.chat_id..'&caption='..URL.escape(TestText)..'&photo='..photo.photos[1].sizes[#photo.photos[1].sizes].photo.remote.id..'&reply_to_message_id='..msg_id..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboardd))
+else
+local TestText = "  ❲ ‹ ⚶𝑆𝑂𝑈𝑅𝐶𝐸 𝐾𝐼𝑁𝐺⚶ ›❳\n— — — — — — — — —\n ◍*Dev Name* :  [".. ban.first_name.."](tg://user?id="..UserId_Info.id..")\n◍ *Dev Bio* : [❲ "..Bio.." ❳]"
+keyboardd = {} 
+keyboardd.inline_keyboard = {
+{
+{text = Creat, url = "https://t.me/"..ban.username..""},
+},
+}
+local msg_id = msg.id/2097152/0.5 
+ https.request("https://api.telegram.org/bot"..Token..'/sendMessage?chat_id=' .. msg.chat_id .. '&text=' .. URL.escape(TestText).."&reply_to_message_id="..msg_id..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboardd))
+end
+end
+end
+//
 if text == '' or text == '' then  
 local UserId_Info = LuaTele.searchPublicChat("TR_E2S_ON_MY_MOoN")
 if UserId_Info.id then
