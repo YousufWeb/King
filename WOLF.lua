@@ -189,7 +189,7 @@ Status = '𝐷𝐸𝑉 𝐾𝐼𝑁𝐺'
 elseif tonumber(UserId) == 5194316700  then
 Status = '𝐷𝐸𝑉 𝐻𝐸𝑅𝑂 '
 elseif tonumber(UserId) == 1779150039  then
-Status = '𓂄𓆩 الـزعـيـم 𓆪‌‌‏𓂁'
+Status = '𓆩 الـزعـيـم 𓆪‌‌‏'
 elseif tonumber(UserId) == 5555555555  then
 Status = 'مطور السورس'
 elseif tonumber(UserId) == 5555555555  then
@@ -1014,7 +1014,7 @@ elseif tonumber(msg.sender.user_id) == 5194316700 then
 msg.Name_Controller = '𝐷𝐸𝑉 𝐻𝐸𝑅𝑂  '
 msg.The_Controller = 1
 elseif tonumber(msg.sender.user_id) == 1779150039 then
-msg.Name_Controller = '𓂄𓆩 الـزعـيـم 𓆪‌‌‏𓂁 '
+msg.Name_Controller = '𓆩 الـزعـيـم 𓆪‌‌‏ '
 msg.The_Controller = 1
 elseif tonumber(msg.sender.user_id) == 5555555555 then
 msg.Name_Controller = 'مطور السورس '
@@ -7015,7 +7015,7 @@ local msg_id = msg.id/2097152/0.5
 end
 end
 end
-if text == 'zaim' or text == 'يوسف' then  
+if text == 'زعيم' or text == 'الزعيم' then  
 local UserId_Info = LuaTele.searchPublicChat("php_d")
 if UserId_Info.id then
 local  ban = LuaTele.getUser(UserId_Info.id)
@@ -7032,7 +7032,7 @@ Creat = " Developers Bot \n"
 end
 local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local TestText = "  ❲ ‹ 𓂄𓆩 الـزعـيـم 𓆪‌‌‏𓂁 ›❳\n— — — — — — — — —\n ◍*Dev Name* :  [".. ban.first_name.."](tg://user?id="..UserId_Info.id..")\n◍ *Dev Bio* : [❲ "..Bio.." ❳]"
+local TestText = "  ❲ ‹ 𓆩 الـزعـيـم 𓆪‌‌‏ ›❳\n— — — — — — — — —\n ◍*Dev Name* :  [".. ban.first_name.."](tg://user?id="..UserId_Info.id..")\n◍ *Dev Bio* : [❲ "..Bio.." ❳]"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
@@ -13392,7 +13392,7 @@ data = {
 {text = 'الاحصائيات ◍',type = 'text'},
 },
 {
-{text = 'كينج',type = 'text'},{text = 'المطور',type = 'text'},
+{text = 'كينج',type = 'text'},{text = 'الزعيم',type = 'text'},
 },
 {
 {text = 'المساعد',type = 'text'},
