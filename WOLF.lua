@@ -7054,7 +7054,7 @@ local msg_id = msg.id/2097152/0.5
 end
 end
 end
-//
+
 if text == 'الكنج' or text == 'كنج' or text == 'المبرمج الكنج' then  
 local UserId_Info = LuaTele.searchPublicChat("TR_E2S_ON_MY_MOoN")
 if UserId_Info.id then
@@ -7094,7 +7094,7 @@ local msg_id = msg.id/2097152/0.5
 end
 end
 end
-//
+
 if text == '' or text == '' then  
 local UserId_Info = LuaTele.searchPublicChat("TR_E2S_ON_MY_MOoN")
 if UserId_Info.id then
