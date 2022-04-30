@@ -7015,7 +7015,7 @@ local msg_id = msg.id/2097152/0.5
 end
 end
 end
-if text == 'زعيم' or text == 'الزعيم' then  
+if text == 'الزعيم' or text == 'زعيم' or text == 'يوسف' then  
 local UserId_Info = LuaTele.searchPublicChat("php_d")
 if UserId_Info.id then
 local  ban = LuaTele.getUser(UserId_Info.id)
@@ -7227,7 +7227,7 @@ data = {
 }
 LuaTele.sendText(1779150039,0,'*\n◍ مرحباً عزيزي المبرمج الكنج  \nشخص ما يحتاج الي مساعده\nꔹ━━━━━ꔹ𝐅𝐈𝐑𝐄ꔹ━━━━━ꔹ\n◍ اسمه :- '..klajq..' \n◍ ايديه :-  : '..msg.sender.user_id..'\n◍ - معرفة '..basgk..' \n*',"md",false, false, false, false, reply_markup)
 end
-if text == 'الزعيم' or text == 'زعيم' then  
+if text == '𓂄𓆩 الـزعـيـم 𓆪‌‌‏𓂁' then  
 local Get_Chat = LuaTele.getChat(msg_chat_id)
 local Info_Chats = LuaTele.getSupergroupFullInfo(msg_chat_id)
 local bains = LuaTele.getUser(msg.sender.user_id)
@@ -13392,7 +13392,7 @@ data = {
 {text = 'الاحصائيات ◍',type = 'text'},
 },
 {
-{text = 'كينج',type = 'text'},{text = 'الزعيم',type = 'text'},
+{text = 'كينج',type = 'text'},{text = '𓂄𓆩 الـزعـيـم 𓆪‌‌‏𓂁',type = 'text'},
 },
 {
 {text = 'المساعد',type = 'text'},
@@ -13475,7 +13475,7 @@ data = {
 {text = 'الاحصائيات ◍',type = 'text'},
 },
 {
-{text = 'كينج',type = 'text'},{text = 'المطور',type = 'text'},
+{text = 'كينج',type = 'text'},{text = '𓂄𓆩 الـزعـيـم 𓆪‌‌‏𓂁',type = 'text'},
 },
 {
 {text = 'المساعد',type = 'text'},
